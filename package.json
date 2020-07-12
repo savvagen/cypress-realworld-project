@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run:chrome": "cypress run --browser chrome cypress run --record --key 5101b566-3413-4673-bbf6-f952715e99ff",
-    "cypress:run:parallel": "cypress run --browser chrome --headless --record --key 5101b566-3413-4673-bbf6-f952715e99ff --parallel"
+    "cypress:run:chrome": "cypress run --browser chrome cypress run --headless"
   },
   "repository": {
     "type": "git",
