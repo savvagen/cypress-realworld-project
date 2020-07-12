@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://react-redux.realworld.io",
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 60000,
+  "integrationFolder": "cypress/specs",
+  "screenshotsFolder": "cypress/screenshots",
+  "fixturesFolder": "cypress/fixtures",
+  "videosFolder": "cypress/videos",
+  "videoUploadOnPasses": true,
+  "video": true
+}

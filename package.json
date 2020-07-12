@@ -1,5 +1,26 @@
 {
-	"dependencies": {
-		"cypress": "^4.10.0"
-	}
+  "name": "cypress-realworld-prject",
+  "version": "1.0.0",
+  "description": "Cypress Example Project with UI and API testing",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:chrome": "cypress test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvagen/cypress-realworld-project.git"
+  },
+  "author": "Savva genchevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savvagen/cypress-realworld-project/issues"
+  },
+  "homepage": "https://github.com/savvagen/cypress-realworld-project#readme",
+  "dependencies": {
+    "cypress": "~4.10.0"
+  }
 }
