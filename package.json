@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "Cypress Example Project with UI and API testing",
   "main": "index.js",
-  "devDependencies": {
-    "cypress": "^4.10.0"
-  },
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:chrome": "cypress test"
+    "cypress:run:chrome": "cypress run --browser chrome cypress run --record --key 5101b566-3413-4673-bbf6-f952715e99ff",
+    "cypress:run:parallel": "cypress run --browser chrome --headless --record --key 5101b566-3413-4673-bbf6-f952715e99ff --parallel"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,15 @@
     "url": "https://github.com/savvagen/cypress-realworld-project/issues"
   },
   "homepage": "https://github.com/savvagen/cypress-realworld-project#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "faker": "^4.1.0"
+  },
   "dependencies": {
-    "cypress": "~4.10.0"
+    "cypress": "~4.10.0",
+    "mocha": "~8.0.1",
+    "mocha-param": "~2.0.1"
   }
 }
