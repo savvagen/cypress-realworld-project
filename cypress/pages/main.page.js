@@ -16,6 +16,7 @@ class MainPage {
     get accountButton() { return (username)=> cy.contains(username) }
     get signInButton() { return cy.contains('Sign in')}
     get signUpButton() { return cy.contains('Sign up')}
+    get articles() { return cy.get("div .article-preview")}
 
 
 }
