@@ -1,3 +1,5 @@
+let { LoginPage } = require("../pages/login.page")
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,3 +25,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+Cypress.Commands.add("login", ()=>{
+    new LoginPage().open().loginWith("savva.genchevskiy@gmail.com", "S.gench19021992")
+})
