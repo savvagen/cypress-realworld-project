@@ -16,7 +16,6 @@ describe("Login Tests", ()=>{
     before(()=>{
         registrationPage = new RegistrationPage()
         mainPage = new MainPage()
-        let userService = new UserService("http://localhost:3000")
     })
 
     beforeEach(()=>{

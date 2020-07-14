@@ -32,7 +32,7 @@ describe("Login Tests", ()=>{
     })
 
     beforeEach(()=>{
-        cy.clearCookies()
+        cy.clearCookies({log: true})
         loginPage.open()
     })
 

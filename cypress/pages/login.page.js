@@ -54,7 +54,7 @@ const MainPage = require('./main.page')
 
 class LoginPage {
     constructor() {
-        this.url = "/login"
+        this.url = "/#/login"
         this.title = "Conduit"
     }
     get loginForm() { return new LoginForm(cy.get(".auth-page *[class='container page']"))}
